@@ -1,0 +1,14 @@
+{
+  "name": "tekkie/autolog-api",
+  "description": "API for personal vehicle management",
+  "keywords": ["API", "RESTf", "silex"],
+  "authors": [
+    {
+      "name": "Georgiana Gligor",
+      "email": "gb@tekkie.ro"
+    }
+  ],
+  "require": {
+    "silex/silex" : "1.*"
+  }
+}
