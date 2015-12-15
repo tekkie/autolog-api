@@ -9,7 +9,8 @@
     }
   ],
   "require": {
-    "silex/silex" : "1.*"
+    "silex/silex" : "1.*",
+    "monolog/monolog": "^1.17"
   },
   "require-dev": {
     "symfony/browser-kit": ">=2.3,<2.4-dev"
