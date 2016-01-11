@@ -7,4 +7,11 @@ namespace Helper;
 class Functional extends \Codeception\Module
 {
 
+  /** learn to add a new test */
+  public function canPostToStatusRoute() {
+    $posted = $this->getModule('Silex')->_request('POST', '/');
+
+    $this->assertEquals('Up and running.', $posted);
+  }
+
 }
