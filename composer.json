@@ -13,8 +13,10 @@
     "monolog/monolog": "^1.17"
   },
   "require-dev": {
-    "symfony/browser-kit": ">=2.3,<2.4-dev"
+    "symfony/browser-kit": ">=2.3,<2.4-dev",
+    "codeception/codeception": "^2.1"
   },
+  "minimum-stability": "stable",
   "autoload": {
     "psr-0" : {
       "TutorialTest" : "tests"
