@@ -9,6 +9,9 @@ modules:
     enabled:
         - PhpBrowser:
             url: 'http://localhost:12345'
+        - REST:
+            depends: PhpBrowser
+            url: 'http://localhost:12345'
         # - Silex:
         #     app: 'app/bootstrap.php'
         - \Helper\Functional
