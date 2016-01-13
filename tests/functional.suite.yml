@@ -7,6 +7,8 @@
 class_name: FunctionalTester
 modules:
     enabled:
-      - Silex:
-          app: 'app/bootstrap.php'
-      - \Helper\Functional
+        - PhpBrowser:
+            url: 'http://localhost:12345'
+        # - Silex:
+        #     app: 'app/bootstrap.php'
+        - \Helper\Functional
